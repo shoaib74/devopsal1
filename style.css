@@ -1,0 +1,180 @@
+/*p,h1{
+    color: rebeccapurple;
+}
+
+ table{
+     color: cadetblue;
+        width: 500px;
+        margin: auto
+            }
+        table,tr,td,th{
+        border: 1px solid black;
+        border-collapse: collapse
+      
+}
+/* CSS TEXT AND TEXT DECORATION
+.headingred{
+    color: red;
+}
+#headingyellow{
+    color: yellow;
+}
+.heading{
+    color: crimson;
+}
+.paragraph{
+    text-transform: uppercase;
+    text-indent: 20px;
+    color: blue;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 15px;
+    direction: rtl;
+}
+/*CSS FONTS*/
+
+/*CSS HEIGHT AND WIDTh */
+  /*  div.container{
+        background-color: grey;
+        color: red;
+        height: 400px;
+        width: 800px;
+        margin: auto;
+   
+    }*/
+
+        ul{
+            text-align:right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ 
+    }
+    ul li{
+        background: red;
+        width: 150px;
+        float: left;
+        border: 2px solid white;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        position: relative;
+
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    ul li:hover{
+        background-color: green;
+    }
+    ul ul
+    {
+        display: none;
+        color: white;
+
+    }
+    ul li:hover > ul
+    {
+        display: block;
+    }
+    ul ul ul {
+
+        margin-left: 150px;
+        position: absolute;
+        top: 0;
+    }
+     ul ul ul ul {
+
+        margin-left: 150px;
+        position: absolute;
+        top: 0;
+    }
+
+
+    .main{
+        text-align: center;
+        width: auto;
+        height: 200px;
+
+    }
+  .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+    .wraper{
+        margin-left: 0;
+
+    }
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+//Search
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background:red;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: green;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
